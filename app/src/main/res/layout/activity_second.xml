@@ -13,7 +13,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/textView"
@@ -49,6 +50,7 @@
         android:layout_marginTop="32dp"
         android:ems="10"
         android:hint="Usuario"
+        android:hintTextColor="#757575"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="parent"
