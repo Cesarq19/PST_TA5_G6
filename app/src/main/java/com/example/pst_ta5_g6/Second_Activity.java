@@ -19,7 +19,7 @@ public class Second_Activity extends AppCompatActivity {
 
     }
 
-    public void inicio(View view) {
+    public void ingresar(View view) {
         txt_user = (EditText) findViewById(R.id.usuario);
         txt_pass = (EditText) findViewById(R.id.editTextTextPassword2);
         String valid_user= txt_user.getText().toString();
