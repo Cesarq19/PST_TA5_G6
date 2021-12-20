@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PST_TA5_G6">
         <activity
+            android:name=".Sexta_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Quinta_Activity"
+            android:exported="true" />
+        <activity
             android:name=".Cuarta_Activity"
             android:exported="true" />
         <activity
