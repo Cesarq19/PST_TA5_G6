@@ -2,31 +2,27 @@ package com.example.pst_ta5_g6;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Dialog;
-import android.content.Context;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.Window;
-import android.widget.EditText;
-import android.widget.ImageView;
 
 public class Tercera_Activity extends AppCompatActivity {
-
+    usuario usuario = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tercera);
-    }
-    public void CuadrodeDialogo(Context contexto){
-        final Dialog dialogo = new Dialog(contexto);
-        dialogo.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        dialogo.setCancelable(false);
-        dialogo.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-        dialogo.setContentView(R.layout.activity_tercera);
+        Bundle usuarioLogin = getIntent().getExtras();
+        if(usuarioLogin!=null){
+            usuario=(usuario) usuarioLogin.getSerializable("usuario");
+        }
 
-        final EditText descripcion;
-        ImageView fotoPelicula;
-        dialogo.show();
+    }
+
+    public void MostrarInfoUs(){
+        Intent intent = new Intent(getApplicationContext(), Quinta_Activity.class);
+        Bundle bundle = new Bundle();
+        bundle.putSerializable("usuario",usuario);
+        intent.putExtras(bundle);
+        startActivity(intent);
     }
 }

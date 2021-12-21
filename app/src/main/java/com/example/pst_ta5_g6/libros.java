@@ -42,9 +42,6 @@ public class libros extends Activity {
             super(libros.this, R.layout.item_view, miLibro);
         }
 
-        publi
-
-
 
             /**Libro CurrentLibro = miLibro.get(position):
 

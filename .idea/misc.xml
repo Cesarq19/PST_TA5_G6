@@ -3,15 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Gs5230/AndroidStudioProjects/PST_TA5_G6/app/src/main/res/drawable/splash_background.xml" value="0.1015625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/PST_TA5_G6/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.16979166666666667" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/PST_TA5_G6/app/src/main/res/drawable/ic_launcher_background.xml" value="0.16979166666666667" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/PST_TA5_G6/app/src/main/res/drawable/splash_background.xml" value="0.16979166666666667" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/PST_TA5_G6/app/src/main/res/layout/activity_cuarta.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/PST_TA5_G6/app/src/main/res/layout/activity_main.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/PST_TA5_G6/app/src/main/res/layout/activity_quinta.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/PST_TA5_G6/app/src/main/res/layout/activity_second.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/PST_TA5_G6/app/src/main/res/layout/activity_sexta.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/PST_TA5_G6/app/src/main/res/layout/activity_tercera.xml" value="0.1721014492753623" />
         <entry key="..\:/Users/Gs5230/AndroidStudioProjects/PST_TA5_G6/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Gs5230/AndroidStudioProjects/PST_TA5_G6/app/src/main/res/layout/activity_second.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Gs5230/Desktop/ta5/PST_TA5_G6/app/src/main/res/drawable/splash_background.xml" value="0.1361111111111111" />
-        <entry key="..\:/Users/Gs5230/Desktop/ta5/PST_TA5_G6/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Gs5230/Desktop/ta5/PST_TA5_G6/app/src/main/res/layout/activity_second.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Gs5230/Desktop/ta5/PST_TA5_G6/app/src/main/res/layout/activity_tercera.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ricardo Siavichay/Desktop/Adrian/300 ll/Programacion de sistemas telematicos/Deberes/ta7/app/src/main/res/layout/activity_cuarta.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Ricardo Siavichay/Desktop/Adrian/300 ll/Programacion de sistemas telematicos/Deberes/ta7/app/src/main/res/layout/activity_main.xml" value="0.1453804347826087" />
+        <entry key="..\:/Users/Ricardo Siavichay/Desktop/Adrian/300 ll/Programacion de sistemas telematicos/Deberes/ta7/app/src/main/res/layout/activity_quinta.xml" value="0.264" />
+        <entry key="..\:/Users/Ricardo Siavichay/Desktop/Adrian/300 ll/Programacion de sistemas telematicos/Deberes/ta7/app/src/main/res/layout/activity_second.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Ricardo Siavichay/Desktop/Adrian/300 ll/Programacion de sistemas telematicos/Deberes/ta7/app/src/main/res/layout/activity_tercera.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/User/Documents/TA5/PST_TA5_G6/app/src/main/res/layout/activity_cuarta.xml" value="0.184375" />
         <entry key="..\:/Users/User/Documents/TA5/PST_TA5_G6/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/User/Documents/TA5/PST_TA5_G6/app/src/main/res/layout/activity_quinta.xml" value="0.4466666666666667" />
         <entry key="..\:/Users/User/Documents/TA5/PST_TA5_G6/app/src/main/res/layout/activity_second.xml" value="0.22" />
         <entry key="..\:/Users/User/Documents/TA5/PST_TA5_G6/app/src/main/res/layout/activity_tercera.xml" value="0.184375" />
       </map>
