@@ -4,8 +4,11 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,19 +40,29 @@ public class libros extends Activity {
 
     }
 
+    private void Click(){
+        ListView list=(ListView) findViewById(R.id.listview);
+        list.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+            public void onItemClick(AdapterView<?> parent, View viewClicked, int position,long id){
+                /**AQUI SE PONE LA ACCION**/
+            }
+
+        });
+    }
+
     private class MyListAdapter extends ArrayAdapter<libro> {
         public MyListAdapter(){
             super(libros.this, R.layout.item_view, miLibro);
         }
 
-        publi
-
-
-
-            /**Libro CurrentLibro = miLibro.get(position):
+        public View getView(int position, View convertView, ViewGroup parent){
+            View itemView = convertView;
+            if (itemView == null)
+                itemView=getLayoutInflater().inflate(R.layout.item_view, parent, false);
+            libro CurrentLibro = miLibro.get(position);
 
             ImageView imageView = (ImageView) itemView.findViewById(R.id.imageItem_icon);
-            imageView.setImageResource(CurrentLibro.getLibro());
+            imageView.setImageResource(CurrentLibro.getId());
 
             TextView TituloText = (TextView) itemView.findViewById(R.id.Item_textTitulo);
             TituloText.setText(CurrentLibro.getTitulo());
@@ -62,7 +75,8 @@ public class libros extends Activity {
 
 
             return itemView;
-             **/
+        }
+
     }
 
 }
