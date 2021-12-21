@@ -43,18 +43,36 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
-    <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="586dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
-        tools:ignore="SpeakableTextPresentCheck">
+    <ImageView
+        android:id="@+id/imageItem_icon"
+        android:layout_width="77dp"
+        android:layout_height="135dp"
+        app:srcCompat="@drawable/dune"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="321dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
-    </ScrollView>
+    <TextView
+        android:id="@+id/Item_textEditorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <TextView
+        android:id="@+id/Item_textAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frank Herbert"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <TextView
+        android:id="@+id/Item_textTitulo"
+        android:layout_width="85dp"
+        android:layout_height="22dp"
+        android:text="Dune"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="339dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
