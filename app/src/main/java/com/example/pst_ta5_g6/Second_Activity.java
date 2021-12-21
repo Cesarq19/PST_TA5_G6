@@ -21,7 +21,7 @@ public class Second_Activity extends AppCompatActivity {
 
     public void ingresar(View view) {
         txt_user = (EditText) findViewById(R.id.usuario);
-        txt_pass = (EditText) findViewById(R.id.editTextTextPassword2);
+        txt_pass = (EditText) findViewById(R.id.editTextContraseña);
         String valid_user= txt_user.getText().toString();
         String valid_pass= txt_pass.getText().toString();
         if (valid_user.equals("TA7G6") && valid_pass.equals("12345"))
